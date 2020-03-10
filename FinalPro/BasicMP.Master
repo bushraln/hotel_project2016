@@ -1,0 +1,338 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BasicMP.master.cs" Inherits="FinalPro.BasicMP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 86px;
+        }
+        .style3
+        {
+            width: 527px;
+            height: 6px;
+        }
+        .style4
+        {
+            width: 612px;
+            height: 6px;
+        }
+        .style10
+        {
+            height: 275px;
+        }
+        .style11
+        {
+            width: 486px;
+            height: 6px;
+        }
+        .style12
+        {
+            width: 545px;
+            height: 6px;
+        }
+        .style13
+        {
+            height: 6px;
+        }
+        .style14
+        {
+            width: 465px;
+            height: 6px;
+        }
+        .auto-style1 {
+            height: 53px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+            <td class="auto-style1" colspan="7">
+            </td>
+        </tr>
+        <tr>
+            <td class="style13" width="12.5%">
+                <asp:LinkButton ID="linBtnHOME" runat="server" onclick="linBtnHOME_Click" 
+                    ForeColor="#FF6600">Home </asp:LinkButton>
+            </td>
+            <td class="style12" width="12.5%">
+                <asp:DropDownList ID="DropDownLog" runat="server" 
+                    onselectedindexchanged="DropDownLog_SelectedIndexChanged" 
+                    AutoPostBack="True" style="text-align: center">
+                    <asp:ListItem>Log In As</asp:ListItem>
+                    <asp:ListItem>Worker</asp:ListItem>
+                    <asp:ListItem>Admin</asp:ListItem>
+                    <asp:ListItem>Customer</asp:ListItem>
+                </asp:DropDownList>
+                <asp:Label ID="lblWelcome" runat="server" Text="Label" Visible="False" 
+                    style="text-align: center"></asp:Label>
+            </td>
+            <td class="style11" width="12.5%">
+                <asp:LinkButton ID="LinBtnAbout" runat="server" ForeColor="#FF6600" 
+                    onclick="LinBtnAbout_Click">About Us</asp:LinkButton>
+            </td>
+            <td class="style14" width="12.5%">
+                <asp:LinkButton ID="LinBtnContact" runat="server" ForeColor="#FF6600" 
+                    onclick="LinBtnContact_Click">Contact Us</asp:LinkButton>
+            </td>
+            <td class="style4" width="12.5%">
+                <asp:LinkButton ID="LinBtnLogOUT" runat="server" ForeColor="#FF6600" 
+                    onclick="LinBtnLogOUT_Click" Visible="False">Log Out</asp:LinkButton>
+            </td>
+            <td class="style3" width="12.5%">
+                <asp:DropDownList ID="DropDownSignUp" runat="server" AutoPostBack="True" 
+                    onselectedindexchanged="DropDownList1_SelectedIndexChanged">
+                    <asp:ListItem>Sign Up As</asp:ListItem>
+                    <asp:ListItem>Admin</asp:ListItem>
+                    <asp:ListItem>Customer</asp:ListItem>
+                    <asp:ListItem>Worker</asp:ListItem>
+                </asp:DropDownList>
+            </td>
+            <td class="style3" width="12.5%">
+                <asp:LinkButton ID="LinBtnMyPage" runat="server" onclick="LinBtnMyPage_Click">My Page</asp:LinkButton>
+            </td>
+        </tr>
+        <tr>
+            <td class="style13" colspan="7">
+                &nbsp;</td>
+        </tr>
+        </table>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <table class="style1">
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

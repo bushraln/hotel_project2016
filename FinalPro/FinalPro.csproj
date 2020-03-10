@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BEC98EB-4A93-408B-B96F-593C3185B013}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalPro</RootNamespace>
+    <AssemblyName>FinalPro</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AddHotel.aspx" />
+    <Content Include="AJAX\1.jpg" />
+    <Content Include="AJAX\2.jpg" />
+    <Content Include="AJAX\3.jpg" />
+    <Content Include="AJAX\4.jpg" />
+    <Content Include="AJAX\5.jpg" />
+    <Content Include="AJAX\6.jpg" />
+    <Content Include="App_Data\FINALproject.accdb" />
+    <Content Include="BookReservation.aspx" />
+    <Content Include="CustomerRoom.aspx" />
+    <Content Include="EditProfile.aspx" />
+    <Content Include="Hotels_in_Caesarea.aspx" />
+    <Content Include="Hotels_In_Center.aspx" />
+    <Content Include="Hotels_In_North.aspx" />
+    <Content Include="Hotels_In_south.aspx" />
+    <Content Include="LikePage.aspx" />
+    <Content Include="LogInAdmin.aspx" />
+    <Content Include="LogInCustomer.aspx" />
+    <Content Include="LogInWorker.aspx" />
+    <Content Include="Photo\11.jpg" />
+    <Content Include="Photo\23.jpg" />
+    <Content Include="AdminROOM.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="DeleteCustomer.aspx" />
+    <Content Include="DeleteHOTEL.aspx" />
+    <Content Include="DeleteWorker.aspx" />
+    <Content Include="HOMEpAGE1.aspx" />
+    <Content Include="Photo\050.jpg" />
+    <Content Include="Photo\1420146676_ad_118861596.jpg" />
+    <Content Include="Photo\2.jpg" />
+    <Content Include="Photo\3.jpg" />
+    <Content Include="Photo\35851498-calm-pictures.jpg" />
+    <Content Include="Photo\3785_hotel-lobby-pictures.jpg" />
+    <Content Include="Photo\4.jpg" />
+    <Content Include="Photo\5.jpg" />
+    <Content Include="Photo\6.jpg" />
+    <Content Include="Photo\7.jpg" />
+    <Content Include="Photo\8.jpg" />
+    <Content Include="Photo\9.jpg" />
+    <Content Include="Photo\about us.PNG" />
+    <Content Include="Photo\Add User.png" />
+    <Content Include="Photo\AdminSelect.jpg" />
+    <Content Include="Photo\AhozotNofim.jpg" />
+    <Content Include="Photo\Almog Holiday Village - Dead Sea%28צפון%29.jpg" />
+    <Content Include="Photo\Arlozorov Suites Hotel.jpg" />
+    <Content Include="Photo\Art_Plus_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Banker%27s_Apartments_Hotel.jpg" />
+    <Content Include="Photo\banner-contact-us.jpg" />
+    <Content Include="Photo\Bat Yam Sea Palace.jpg" />
+    <Content Include="Photo\bbb.jpg" />
+    <Content Include="Photo\Beit_maimon_hotel.jpg" />
+    <Content Include="Photo\Blue Bay Hotel Netanya.jpg" />
+    <Content Include="Photo\blue-and-white-wallpaper-13.jpg" />
+    <Content Include="Photo\blue.jpg" />
+    <Content Include="Photo\booking.jpg" />
+    <Content Include="Photo\Boutique Hotel Villar.jpg" />
+    <Content Include="Photo\Boutique_Hotel-Colony_Haifa.jpg" />
+    <Content Include="Photo\Camilla Resort.jpg" />
+    <Content Include="Photo\Carmel_Forest_Isrotel.jpg" />
+    <Content Include="Photo\Cinema_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\colorful.png" />
+    <Content Include="Photo\Comfort Hotel Eilat.jpg" />
+    <Content Include="Photo\contact-us.png" />
+    <Content Include="Photo\CONTACT.US.jpg" />
+    <Content Include="Photo\contact_new.jpg" />
+    <Content Include="Photo\Crowne Plaza City Center.jpg" />
+    <Content Include="Photo\Crowne Plaza Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Crowne-Plaza-Jerusalem.jpg" />
+    <Content Include="Photo\Crowne_Plaza_Haifa_Hotel.jpg" />
+    <Content Include="Photo\Crowne_Plaza_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Dan Accadia Hotel Herzliya.jpg" />
+    <Content Include="Photo\Dan Panorama Hotel.jpg" />
+    <Content Include="Photo\Dan-Jerusalem-Hote.jpg" />
+    <Content Include="Photo\Dan-Panorama-Jerusalem.jpg" />
+    <Content Include="Photo\Daniel Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Daniel Hotel Herzliya.jpg" />
+    <Content Include="Photo\Dan_Carmel_Hotel_Haifa.jpg" />
+    <Content Include="Photo\Dan_Gardens_Hotel_Ashkelon.jpg" />
+    <Content Include="Photo\Dan_Hotel_Caesarea.jpg" />
+    <Content Include="Photo\Dan_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Dan_Panorama_Hotel_Haifa.jpg" />
+    <Content Include="Photo\David_Intercontinental_Hotel.jpg" />
+    <Content Include="Photo\delete_user.png" />
+    <Content Include="Photo\do2.png" />
+    <Content Include="Photo\dolfin.gif" />
+    <Content Include="Photo\Edwa_Boutique_Hotel.jpg" />
+    <Content Include="Photo\EldanHotel-Jerusalem.jpg" />
+    <Content Include="Photo\Eretz Tze%27elim Hotel.jpg" />
+    <Content Include="Photo\fogHotel.jpg" />
+    <Content Include="Photo\Golden Tulip Club All Inclusive.jpg" />
+    <Content Include="Photo\Golden_Beach_Hotel.jpg" />
+    <Content Include="Photo\Gordon_Inn_Hotel.jpg" />
+    <Content Include="Photo\Grand-Court-Hotel-in-Jerusalem.jpg" />
+    <Content Include="Photo\Grand_Beach_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Green-Hills.jpg" />
+    <Content Include="Photo\hard-rock-hotel-ibiza.jpg" />
+    <Content Include="Photo\Harmony-Jerusalem.jpg" />
+    <Content Include="Photo\Herods Dead Sea.jpg" />
+    <Content Include="Photo\Hilton Queen of Sheba Hotel.jpg" />
+    <Content Include="Photo\Holiday.jpg" />
+    <Content Include="Photo\Holiday_Inn_Ashkelon.jpg" />
+    <Content Include="Photo\Hostel-Jerusalem.jpg" />
+    <Content Include="Photo\Hotel Center.jpg" />
+    <Content Include="Photo\Hotel Deborah.jpg" />
+    <Content Include="Photo\Hotel Hod.jpg" />
+    <Content Include="Photo\Hotel Metropolitan.jpg" />
+    <Content Include="Photo\Hotel Shefayim.jpg" />
+    <Content Include="Photo\Hotel Vital - Tel Aviv.jpg" />
+    <Content Include="Photo\Hotel-Eden-Jerusalem.jpg" />
+    <Content Include="Photo\Hotel-guest-house-near-eight.jpg" />
+    <Content Include="Photo\Hotel-guests -Neve-Shalom.jpg" />
+    <Content Include="Photo\Hotel-guests-Neve-Shalom.jpg" />
+    <Content Include="Photo\Hotel-raises-five.jpg" />
+    <Content Include="Photo\hotel.jpg" />
+    <Content Include="Photo\hotelLake.jpg" />
+    <Content Include="Photo\HotelPool.jpg" />
+    <Content Include="Photo\Hotels in the Judean Lowland, Mazkeret Batya.jpg" />
+    <Content Include="Photo\Hotel_Alexander.jpg" />
+    <Content Include="Photo\Hotel_Coco.jpg" />
+    <Content Include="Photo\Inbal-Hotel-Jerusalem.jpg" />
+    <Content Include="Photo\InnSense.jpg" />
+    <Content Include="Photo\Isrotel Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Isrotel Ganim Hotel - Dead Sea.jpg" />
+    <Content Include="Photo\Isrotel-vineyards.jpg" />
+    <Content Include="Photo\Isrotel_Tower_Hotel.jpg" />
+    <Content Include="Photo\Jerusalem-Gate-Hotel.jpg" />
+    <Content Include="Photo\Jerusalem-little-hotel.jpg" />
+    <Content Include="Photo\Jerusalem-Tower-Hotel.jpg" />
+    <Content Include="Photo\Kfar Maccabiah Hotel.jpg" />
+    <Content Include="Photo\Kfar Maccabiah Suites Premium.jpg" />
+    <Content Include="Photo\King Solomon Hotel - Netanya.jpg" />
+    <Content Include="Photo\lake.jpg" />
+    <Content Include="Photo\laptopColor.png" />
+    <Content Include="Photo\leave.jpg" />
+    <Content Include="Photo\Leonardo Bat Yam.jpg" />
+    <Content Include="Photo\Leonardo City Tower Tel Aviv.jpg" />
+    <Content Include="Photo\Leonardo Club - Dead Sea.jpg" />
+    <Content Include="Photo\Leonardo Dead Sea Hotel - Fattal.jpg" />
+    <Content Include="Photo\Leonardo Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Leonardo Hotel Negev.jpg" />
+    <Content Include="Photo\Leonardo-Inn-Jerusalem.jpg" />
+    <Content Include="Photo\Leonardo-Plaza-Hotel-Jerusalem.jpg" />
+    <Content Include="Photo\Leonardo_Basel_Hotel.jpg" />
+    <Content Include="Photo\Leonardo_Boutiqueֹֹ_Rehovot.jpg" />
+    <Content Include="Photo\Leonardo_Hotel_Haifa-Fattal.jpg" />
+    <Content Include="Photo\Liber_Holiday_Apartments.jpg" />
+    <Content Include="Photo\Like.png" />
+    <Content Include="Photo\Little-House-in-the-Village-Motel.jpg" />
+    <Content Include="Photo\Lot Spa Hotel.jpg" />
+    <Content Include="Photo\Lusky_Suites_Hotel.jpg" />
+    <Content Include="Photo\Mamilla-Jerusalem.jpg" />
+    <Content Include="Photo\Maxim Hotel Tel Aviv.jpg" />
+    <Content Include="Photo\Melody_Hotel.jpg" />
+    <Content Include="Photo\Mercure_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Meridian Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Miami_Hotel.jpg" />
+    <Content Include="Photo\Mitzpe Hayam Boutique Hotel.jpg" />
+    <Content Include="Photo\mokaab.jpg" />
+    <Content Include="Photo\Moriah Plaza Hotel Dead Sea.jpg" />
+    <Content Include="Photo\Moriah-Classic-Jerusalem.jpg" />
+    <Content Include="Photo\Moriah-Gardens.jpg" />
+    <Content Include="Photo\MR0107.jpg" />
+    <Content Include="Photo\Nahsholim Boutique Hotel.jpg" />
+    <Content Include="Photo\Nahsholim Hotel.jpg" />
+    <Content Include="Photo\Neot_Golf_Caesarea.jpg" />
+    <Content Include="Photo\NOF.jpg" />
+    <Content Include="Photo\Nof_Hotel_Haifa.jpg" />
+    <Content Include="Photo\Olympia_Hotel.jpg" />
+    <Content Include="Photo\Palatin-Hotel-Jerusalem.jpg" />
+    <Content Include="Photo\PALSTAIN.jpg" />
+    <Content Include="Photo\Park Hotel Netanya.jpg" />
+    <Content Include="Photo\Park_Plaza_Orchid_Hotel.jpg" />
+    <Content Include="Photo\Pink-And-White-Wallpaper-15.jpg" />
+    <Content Include="Photo\Prima Oasis Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Prima-Kings-Hotel-Jerusalem.jpg" />
+    <Content Include="Photo\Prima-Royale.jpg" />
+    <Content Include="Photo\purple.jpg" />
+    <Content Include="Photo\purple1.jpg" />
+    <Content Include="Photo\purple2.jpg" />
+    <Content Include="Photo\Q Q Hotel Netanya.jpg" />
+    <Content Include="Photo\Ramada Hotel Netanya.jpg" />
+    <Content Include="Photo\Ramat-Rachel-Hotel.jpg" />
+    <Content Include="Photo\relax.jpg" />
+    <Content Include="Photo\Remy Hoteal.jpg" />
+    <Content Include="Photo\Renaissance_Hotel-Tel_Aviv.jpg" />
+    <Content Include="Photo\reservation.png" />
+    <Content Include="Photo\reservationUser.png" />
+    <Content Include="Photo\Rich Eilat.jpg" />
+    <Content Include="Photo\Rimonim Optima Hotel.jpg" />
+    <Content Include="Photo\Rothschild_Estate.jpg" />
+    <Content Include="Photo\Royal Beach Tel Aviv.jpg" />
+    <Content Include="Photo\Royal Dead Sea.jpg" />
+    <Content Include="Photo\Sadot_Hotel.jpg" />
+    <Content Include="Photo\Sea_Net_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\Sharon Hotel - Herzliya.jpg" />
+    <Content Include="Photo\shine.jpg" />
+    <Content Include="Photo\Shizen Spa Hotel.jpg" />
+    <Content Include="Photo\Spa Club Dead Sea Hotel.jpg" />
+    <Content Include="Photo\Tal_Hotel_Tel_Aviv.jpg" />
+    <Content Include="Photo\The Seasons Hotel Netanya.jpg" />
+    <Content Include="Photo\The Terra Cotta Mansion.jpg" />
+    <Content Include="Photo\The-David-Citadel-Hotel.jpg" />
+    <Content Include="Photo\Tzel Harim Hotel Dead Sea.jpg" />
+    <Content Include="Photo\UPDATEuser.png" />
+    <Content Include="Photo\uppView.jpg" />
+    <Content Include="Photo\vertical-line.png" />
+    <Content Include="Photo\wave.png" />
+    <Content Include="Photo\wave2.jpg" />
+    <Content Include="Photo\wave3.png" />
+    <Content Include="Photo\web-design-2.jpg" />
+    <Content Include="Photo\sea.jpg" />
+    <Content Include="Photo\welcome-12.gif" />
+    <Content Include="Photo\welcome-13.gif" />
+    <Content Include="Photo\www.GIFCreator.me_UeZfuM.gif" />
+    <Content Include="Photo\הורד.jpg" />
+    <Content Include="Photo\‏‏לכידה.JPG" />
+    <Content Include="reportComplaints.aspx" />
+    <Content Include="reportCUSTOMER.aspx" />
+    <Content Include="REPORThotel.aspx" />
+    <Content Include="reportAdmin.aspx" />
+    <Content Include="ReportInvitation.aspx" />
+    <Content Include="ReportWorker.aspx" />
+    <Content Include="Reservation.aspx" />
+    <Content Include="SignUpCustomer.aspx" />
+    <Content Include="SignUpWorker.aspx" />
+    <Content Include="SignUpAdmin.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Start.aspx" />
+    <Content Include="StartPage.aspx" />
+    <Content Include="UpdateCustomer.aspx" />
+    <Content Include="UpdatehOTEL.aspx" />
+    <Content Include="UpdateWORKER.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WorkerRoom.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddHotel.aspx.cs">
+      <DependentUpon>AddHotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddHotel.aspx.designer.cs">
+      <DependentUpon>AddHotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookReservation.aspx.cs">
+      <DependentUpon>BookReservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookReservation.aspx.designer.cs">
+      <DependentUpon>BookReservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bushra.Master.cs">
+      <DependentUpon>Bushra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bushra.Master.designer.cs">
+      <DependentUpon>Bushra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Like.cs" />
+    <Compile Include="CustomerRoom.aspx.cs">
+      <DependentUpon>CustomerRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerRoom.aspx.designer.cs">
+      <DependentUpon>CustomerRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProfile.aspx.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProfile.aspx.designer.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels_in_Caesarea.aspx.cs">
+      <DependentUpon>Hotels_in_Caesarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotels_in_Caesarea.aspx.designer.cs">
+      <DependentUpon>Hotels_in_Caesarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels_In_Center.aspx.cs">
+      <DependentUpon>Hotels_In_Center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotels_In_Center.aspx.designer.cs">
+      <DependentUpon>Hotels_In_Center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels_In_North.aspx.cs">
+      <DependentUpon>Hotels_In_North.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotels_In_North.aspx.designer.cs">
+      <DependentUpon>Hotels_In_North.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hotels_In_south.aspx.cs">
+      <DependentUpon>Hotels_In_south.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hotels_In_south.aspx.designer.cs">
+      <DependentUpon>Hotels_In_south.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LikePage.aspx.cs">
+      <DependentUpon>LikePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LikePage.aspx.designer.cs">
+      <DependentUpon>LikePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInAdmin.aspx.cs">
+      <DependentUpon>LogInAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInAdmin.aspx.designer.cs">
+      <DependentUpon>LogInAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Complaints.cs" />
+    <Compile Include="classes\Customer.cs" />
+    <Compile Include="classes\Invitation.cs" />
+    <Compile Include="classes\Leasing.cs" />
+    <Compile Include="classes\Rooms.cs" />
+    <Compile Include="classes\Worker.cs" />
+    <Compile Include="classes\Functions\DBFunctions.cs" />
+    <Compile Include="classes\Admin.cs" />
+    <Compile Include="AdminROOM.aspx.cs">
+      <DependentUpon>AdminROOM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminROOM.aspx.designer.cs">
+      <DependentUpon>AdminROOM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicMP.Master.cs">
+      <DependentUpon>BasicMP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicMP.Master.designer.cs">
+      <DependentUpon>BasicMP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCustomer.aspx.cs">
+      <DependentUpon>DeleteCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteCustomer.aspx.designer.cs">
+      <DependentUpon>DeleteCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteHOTEL.aspx.cs">
+      <DependentUpon>DeleteHOTEL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteHOTEL.aspx.designer.cs">
+      <DependentUpon>DeleteHOTEL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteWorker.aspx.cs">
+      <DependentUpon>DeleteWorker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteWorker.aspx.designer.cs">
+      <DependentUpon>DeleteWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HOMEpAGE1.aspx.cs">
+      <DependentUpon>HOMEpAGE1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HOMEpAGE1.aspx.designer.cs">
+      <DependentUpon>HOMEpAGE1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInCustomer.aspx.cs">
+      <DependentUpon>LogInCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInCustomer.aspx.designer.cs">
+      <DependentUpon>LogInCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInWorker.aspx.cs">
+      <DependentUpon>LogInWorker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInWorker.aspx.designer.cs">
+      <DependentUpon>LogInWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportComplaints.aspx.cs">
+      <DependentUpon>reportComplaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportComplaints.aspx.designer.cs">
+      <DependentUpon>reportComplaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportCUSTOMER.aspx.cs">
+      <DependentUpon>reportCUSTOMER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportCUSTOMER.aspx.designer.cs">
+      <DependentUpon>reportCUSTOMER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REPORThotel.aspx.cs">
+      <DependentUpon>REPORThotel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REPORThotel.aspx.designer.cs">
+      <DependentUpon>REPORThotel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportAdmin.aspx.cs">
+      <DependentUpon>reportAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportAdmin.aspx.designer.cs">
+      <DependentUpon>reportAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportInvitation.aspx.cs">
+      <DependentUpon>ReportInvitation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportInvitation.aspx.designer.cs">
+      <DependentUpon>ReportInvitation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportWorker.aspx.cs">
+      <DependentUpon>ReportWorker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportWorker.aspx.designer.cs">
+      <DependentUpon>ReportWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.aspx.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reservation.aspx.designer.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpCustomer.aspx.cs">
+      <DependentUpon>SignUpCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpCustomer.aspx.designer.cs">
+      <DependentUpon>SignUpCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpWorker.aspx.cs">
+      <DependentUpon>SignUpWorker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpWorker.aspx.designer.cs">
+      <DependentUpon>SignUpWorker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpAdmin.aspx.cs">
+      <DependentUpon>SignUpAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpAdmin.aspx.designer.cs">
+      <DependentUpon>SignUpAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Start.aspx.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Start.aspx.designer.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.aspx.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StartPage.aspx.designer.cs">
+      <DependentUpon>StartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.aspx.cs">
+      <DependentUpon>UpdateCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomer.aspx.designer.cs">
+      <DependentUpon>UpdateCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatehOTEL.aspx.cs">
+      <DependentUpon>UpdatehOTEL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatehOTEL.aspx.designer.cs">
+      <DependentUpon>UpdatehOTEL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateWORKER.aspx.cs">
+      <DependentUpon>UpdateWORKER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateWORKER.aspx.designer.cs">
+      <DependentUpon>UpdateWORKER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerRoom.aspx.cs">
+      <DependentUpon>WorkerRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkerRoom.aspx.designer.cs">
+      <DependentUpon>WorkerRoom.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BasicMP.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bushra.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6376</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
